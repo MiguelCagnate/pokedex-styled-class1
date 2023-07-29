@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './AddString.css'
 
 const AddString = (props) => {
   const [AddString, setAddString] = useState("");
@@ -13,9 +14,9 @@ const AddString = (props) => {
   };
 
   return (
-    <form className="input-container" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <label>Add Ability</label>
-      <input type="text" value={AddString} onChange={handleInputChange} />
+      <input className="input" type="text" value={AddString} onChange={handleInputChange} />
       <button type="submit">Send</button>
     </form>
   );
