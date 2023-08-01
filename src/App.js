@@ -3,6 +3,8 @@ import Logo from "./Components/Logo/Logo";
 import CaughtPokemon from "./Components/CaughtPokemon/CaughtPokemon";
 import "./App.css";
 import NewPokemon from "./Components/NewPokemon/NewPokemon";
+import PokemonMoves from "./Components/PokemonMoves/PokemonMoves";
+
 
 function App() {
   const appName = "Pokedex";
@@ -25,6 +27,7 @@ function App() {
       <div className="pokemon-container">
         <div className="caught-pokemon-content">
         <CaughtPokemon date={dateString} pokemons={caughtPokemons} />
+        <PokemonMoves/>
         </div>
         <div className="new-pokemon-content">
         <NewPokemon onNewPokemon={onPokemonEnteredListener} />
