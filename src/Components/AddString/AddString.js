@@ -14,7 +14,7 @@ const AddString = (props) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit} >
       <label>Add Ability</label>
       <input className="input" type="text" value={AddString} onChange={handleInputChange} />
       <button type="submit">Send</button>

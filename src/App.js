@@ -17,8 +17,8 @@ function App() {
     <div className="app-container">
       <Logo appName={appName} />
       <BestPokemon abilities={abilities} />
-      <CaughtPokemon date={dateString} />
       <AddString onFormCompleted={handleNewAbility} />
+      <CaughtPokemon date={dateString} />
     </div>
   );
 }
