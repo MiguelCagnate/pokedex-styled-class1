@@ -1,0 +1,35 @@
+.new-pokemon-container {
+    text-align: center;
+}
+
+.new-pokemon-title {
+    color: rgb(242, 242, 242);
+    font-size: 40px;
+}
+
+.new-pokemon-container h2 {
+    margin-bottom: 10px;
+}
+
+.new-pokemon-form {
+    display: flex;
+    justify-content: center;
+}
+
+.new-pokemon-input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.new-pokemon-submit {
+    padding: 5px 10px;
+    background-color: #e5955a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
+
+.new-pokemon-submit:hover {
+    background-color: #0056b3;
+}

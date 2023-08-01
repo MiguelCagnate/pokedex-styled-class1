@@ -5,12 +5,12 @@ const Logo = (props) => {
   return (
     <header>
       <div className="header-container">
-        <h1 className="title">{"Hello " + props.appName}</h1>
+        <div className="title-container">
+          <h1 className="title">{props.appName}</h1>
+          <h1 className="description">{props.description}</h1>
+        </div>
         <div className="centered-image-container">
-          <img
-            className="centered-image"
-            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
-          />
+          <div className="pokemon-background"></div>
         </div>
       </div>
     </header>
