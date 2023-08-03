@@ -15,7 +15,7 @@ const CaughtPokemon = (props) => {
         })}
       </ul>
       <div className="caught-pokemon-info">
-        <p>{"Caught " + props.pokemons.length + " Pokémon on " + props.date}</p>
+        <p>{`Caught ${props.pokemons}.length Pokémon on ${props.date}`}</p>
       </div>
     </div>
   );
